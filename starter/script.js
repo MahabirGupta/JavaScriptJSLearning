@@ -43,3 +43,14 @@ console.log(typeof year);
 
 // null datatype
 console.log(typeof null);
+
+let age = 30;
+age = 31;
+
+// const variable cannot be changed. It is immutable
+
+const birthYear = 1981; // When using const we need to initialise the value
+
+// var is the old way of declaring variables
+var job = "teacher";
+job = "Software Developer";
