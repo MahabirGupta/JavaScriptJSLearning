@@ -54,3 +54,39 @@ const birthYear = 1981; // When using const we need to initialise the value
 // var is the old way of declaring variables
 var job = "teacher";
 job = "Software Developer";
+
+// Basic operators
+const currentYear = 2023;
+console.log(currentYear);
+const ageMahabir = currentYear - 1981;
+console.log("age = " + ageMahabir);
+
+const ageAnish = currentYear - 2012;
+console.log("age = " + ageAnish);
+
+console.log(ageMahabir * 2, ageMahabir / 2);
+
+// 2 to the power of 3
+const result = 2 ** 3;
+console.log(result);
+
+// String concatination
+const firstName = "Mahabir";
+const lastName = "Gupta";
+const fullName = firstName + " " + lastName;
+console.log(fullName);
+
+// assignment operators
+let x = 15;
+x += 10; //x=x+10=25
+console.log(x);
+x *= 4; //x=x*4=100
+console.log(x);
+x++; //x=x+1
+console.log(x);
+x--; //x=x-1;
+console.log(x);
+
+// comparison operators
+console.log(ageMahabir > ageAnish);
+console.log(ageAnish >= 21);
