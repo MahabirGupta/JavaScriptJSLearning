@@ -90,3 +90,11 @@ console.log(x);
 // comparison operators
 console.log(ageMahabir > ageAnish);
 console.log(ageAnish >= 21);
+
+let z, y;
+z = y = 25 - 10 - 5; // z=y=10
+console.log(z, y);
+
+const totalAge = ageMahabir + ageAnish;
+const avgAge = totalAge / 2;
+console.log("Average age = " + avgAge);
